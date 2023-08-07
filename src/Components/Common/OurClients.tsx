@@ -7,38 +7,38 @@ const OurClients = () => {
 
   const data = [
     {
-      img: "/generali_logo.png",
+      img: "/generali_logo.webp",
     },
     {
-      img: "/Terrazza-Martini-Milano.png",
+      img: "/Terrazza-Martini-Milano.webp",
     },
     {
-      img: "/Armani_Hotel_Milano.png",
+      img: "/Armani_Hotel_Milano.webp",
     },
 
     {
-      img: "/Logo_Banca_dItalia.png",
+      img: "/Logo_Banca_dItalia.webp",
     },
     {
-      img: "/logo-gog.png",
+      img: "/logo-gog.webp",
     },
     {
-      img: "/Mercedes-Benz.png",
+      img: "/Mercedes-Benz.webp",
     },
     {
-      img: "/R-1.png",
+      img: "/R-1.webp",
     },
     {
       img: "/logo-alfasigma.png",
     },
     {
-      img: "/stc_logo.png",
+      img: "/stc_logo.webp",
     },
     {
-      img: "/politecnico-di-torino-logo.png",
+      img: "/politecnico-di-torino-logo.webps",
     },
     {
-      img: "/Honda_Logo.png",
+      img: "/Honda_Logo.webp",
     },
     {
       img: "/toyota-log.png",
