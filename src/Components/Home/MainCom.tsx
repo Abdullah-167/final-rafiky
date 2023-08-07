@@ -55,8 +55,8 @@ const MainCom = () => {
               alt={t("alt_img_remote_interpreting")}
               width={450}
               height={450}
-              placeholder="blur"
               blurDataURL={"/laugh.webp"}
+              loading="lazy"
             />
           </div>
         </div>
