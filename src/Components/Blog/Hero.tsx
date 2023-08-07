@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React, { useState } from 'react';
-import blogImg from '../../../public/hands.png'
+import blogImg from '../../../public/hands.webp'
 import useTranslation from '@/hooks/useTranslation';
 
 const Hero = () => {
