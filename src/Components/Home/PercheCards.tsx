@@ -57,7 +57,7 @@ const PercheCards = () => {
         {
             icon: <AiOutlineMobile />,
             heading: t('chooseRafiky_Seventhcard_Heading'),
-            para:  t('chooseRafiky_Seventhcard_para'),
+            para: t('chooseRafiky_Seventhcard_para'),
             bgColor: 'rgba(247,103,180,0.3)',
             color: '#f767b4'
         },

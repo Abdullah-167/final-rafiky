@@ -65,7 +65,7 @@ const OurClients = () => {
                   src={item.img}
                   alt={t("ourCustomerLogo")}
                   width={150}
-                  height={0}
+                  height={150}
                 />
               </div>
             );
