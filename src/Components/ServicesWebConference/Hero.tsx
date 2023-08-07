@@ -1,6 +1,6 @@
 import useTranslation from "@/hooks/useTranslation";
 import { Link } from "next-translate-routes";
-import BgImage from "../../../public/frame3.png";
+import BgImage from "../../../public/frame3.webp";
 import Button from "../Button";
 
 const Hero = () => {

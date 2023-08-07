@@ -1,5 +1,5 @@
 import Button from "../../Button";
-import BgImage from "../../../../public/frame3.png";
+import BgImage from "../../../../public/frame3.webp";
 import useTranslation from "@/hooks/useTranslation";
 import GetLocale from "@/hooks/getLocale";
 import { freeQuoteSlug } from "@/utils";

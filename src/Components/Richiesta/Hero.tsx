@@ -4,7 +4,7 @@ import axios from "axios";
 import { useRouter } from "next-translate-routes/router";
 import Slider from "rc-slider";
 import React, { useState } from "react";
-import BgImage from "../../../public/frame3.png";
+import BgImage from "../../../public/frame3.webp";
 import Button from "../Button";
 interface FormData {
   [key: string]: string;

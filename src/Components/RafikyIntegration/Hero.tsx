@@ -1,6 +1,6 @@
 import Button from "../Button";
 import { IoIosArrowDown } from "react-icons/io";
-import BgImage from "../../../public/frame3.png";
+import BgImage from "../../../public/frame3.webp";
 import useTranslation from "@/hooks/useTranslation";
 
 const Hero = () => {
