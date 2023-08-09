@@ -18,6 +18,7 @@ const BlogList = ({ posts }: any) => {
 };
 
 export default BlogList;
+
 export async function getStaticProps(context: any) {
   const language = context?.locale?.toUpperCase();
   let after = "";
