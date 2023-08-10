@@ -20,12 +20,15 @@ const Vedio = () => {
   return (
     <div className="vedio-bg">
       <div className="container relative">
-        <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row  justify-between items-center py-20 ">
+        <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row gap-10  justify-between items-center py-20 ">
           <div className="w-1/2">
             <Image
               loading="lazy"
+              className=" -rotate-[30deg]"
               src={lockUpMobile}
               alt={t("alt_img_sign_language_interpretation")}
+              width={1000}
+              height={1000}
             />
           </div>
           <div className="max-w-[600px]">
@@ -33,7 +36,7 @@ const Vedio = () => {
               {data.map((item, index) => {
                 return (
                   <div className="" key={index}>
-                    <h2 className="text-[#FCA497] text-[35px]  font-bold">
+                    <h2 className="text-white text-[35px]  font-bold">
                       {item.heading}
                     </h2>
                     <p className="text-base font-medium text-white pbF-4 lg:max-w-[750px] py-3 leading-9">

@@ -21,7 +21,7 @@ const Hero = () => {
         <div className="flex justify-center items-center gap-10">
           <div className="py-20 sm:py-32">
             <div className="mb-12">
-              <h2 className="text-3xl text-center text-white font-medium pb-5">
+              <h2 className="text-3xl text-center text-white font-medium pb-5 uppercase">
                 {t("servicesSignlanguage_Title")}
               </h2>
               <h2 className="text-[30px] sm:text-[60px] md:text-[79px] text-white font-bold mx-auto max-w-[1100px] text-center leading-[1.2em] pb-12">
