@@ -57,13 +57,12 @@ const Software = () => {
             <div className='text-[#969696] py-20'>
                 <h2 className='text-center text-black text-[50px] font-semibold pb-9'>{t("services_360degreeTitle")}</h2>
                 <p className='text-center pb-8'>{t("services_360degreepara")} </p>
-                <strong className='text-center text-xl font-semibold text-black pb-20'>{t("services_FeaturesHeading")} </strong>
+                <p className='text-2xl font-semibold text-black pb-10'>{t("services_FeaturesHeading")} </p>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-x-16 md:gap-y-5' >
                     {text.map((item, index) => {
                         return (
-                            <li className="flex items-start" key={index}>
-                                <span className="text-base">-&nbsp;</span>
-                                <p className="text-base">{item.text}</p>
+                            <li className="flex justify-center items-center" key={index}>
+                                <p className="text-base bg-white shadow-md py-2 px-4 rounded-lg w-full">{item.text}</p>
                             </li>
                         )
                     })}
